@@ -71,6 +71,7 @@ class tx_ldapsynctask_task extends tx_scheduler_Task  {
 		$objSyncClass = t3lib_div::makeInstanceClassName('tx_ldapsync');
 		$objSync = new $objSyncClass();
 		// $objSync->init('', $this->server, 'simulate');
+		$objSync->writeDevLog = true;
 		$objSync->init('', $this->server, '');
 		$objSync->sync();
 		$statistics = $objSync->processStatistics();

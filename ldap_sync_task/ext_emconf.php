@@ -12,7 +12,7 @@
 
 $EM_CONF[$_EXTKEY] = array(
 	'title' => 'LDAP Synchronisation Task',
-	'description' => 'Add scheduler task to automate LDAP synchronisation',
+	'description' => 'Add scheduler task to automate LDAP synchronisation, depend of ldap_sync extension',
 	'category' => 'be',
 	'author' => 'In Cite Solution',
 	'author_email' => 'technique@in-cite.net',
