@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for plugin &quot;ldap_sync_task&quot;</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="scheduler_field_server">Server</label>
+			<label index="error_server">Please choose or create a configuration server (LDAP Server).</label>
+			<label index="error_create_server">Please create a configuration server LDAP Server (LDAP Sync extension documentation).</label>
+			<label index="task_error_server">Error, any configuration server has selected.</label>
+			<label index="task_error_server_notexist">Error, configuration server doesn't exist.</label>
+			<label index="task_succes">Synchronisation success</label>
+		</languageKey>
+		<languageKey index="fr" type="array">
+			<label index="scheduler_field_server">Serveur</label>
+			<label index="error_server">Veuillez choisir ou créer une configuration serveur (LDAP Server).</label>
+			<label index="error_create_server">Veuillez créer une configuration serveur LDAP Server (voir documentation extension LDAP Sync).</label>
+			<label index="task_error_server">Erreur, aucune configuration de serveur est sélectionnée.</label>
+			<label index="task_error_server_notexist">Error, la configuration server n'existe pas.</label>
+			<label index="task_succes">La synchronisation s'est terminée avec succès.</label>
+		</languageKey>
+	</data>
+</T3locallang>
