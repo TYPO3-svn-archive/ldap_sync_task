@@ -1,3 +1,11 @@
+2011-10-11 Pierrick Caillon <pierrick@in-cite.net>
+	* Added record uid in server list options title.
+	* Added scheduler list additional information support.
+	* Added test support in cli mode.
+	* Rearranged folder.
+
+... Missing changes ...
+
 2011-08-03 In Cite Solution  <technique@in-cite.net>
 
 	* initial code generated with kickstarter

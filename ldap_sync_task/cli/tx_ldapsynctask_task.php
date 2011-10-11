@@ -21,8 +21,7 @@
 *
 *  This copyright notice MUST APPEAR in all copies of the script!
 ***************************************************************/
+if (!defined('TYPO3_cliMode'))	die('You cannot run this script directly!');
 
-require_once(t3lib_extMgm::extPath('ldap_sync_task') . 'class.tx_ldapsynctask_task.php');
-
-$export = t3lib_div::makeInstance('tx_ldapsynctask_task');
-$export->execute();
+$export = t3lib_div::makeInstance('tx_ldapsynctask_clitask');
+$export->cli_main($_SERVER["argv"]);
